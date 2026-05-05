@@ -5,7 +5,7 @@ This is a static one-page website mockup using the exact substantive text from `
 ## Files
 
 - `index.html` — the website page
-- `styles.css` — the redacted/classified dossier design system
+- `style.css` — the redacted/classified dossier design system
 - `script.js` — mobile menu behavior
 - `assets/` — selected optimized REDACTED kit textures, stamps, lines, scratches, and the source pitch deck PDF
 
