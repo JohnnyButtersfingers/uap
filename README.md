@@ -1,20 +1,20 @@
-# Rachel’s Loop Website — Exact Text V2
+# Rachel’s Loop GitHub Pages Site
 
-This is a static one-page website mockup using the exact substantive text from `Rachel's Loop_Pitch Deck_v1.pdf` and visual assets from `REDACTED-VOL.-I 2.zip`.
+Static one-page website for **Rachel’s Loop**. The repository is organized for GitHub Pages publishing from the repository root.
 
-## Files
+## Repository structure
 
-- `index.html` — the website page
-- `styles.css` — the redacted/classified dossier design system
-- `script.js` — mobile menu behavior
-- `assets/` — selected optimized REDACTED kit textures, stamps, lines, scratches, and the source pitch deck PDF
+- `index.html` — GitHub Pages entry page at the repository root
+- `style.css` — site styling at the repository root
+- `script.js` — mobile navigation behavior at the repository root
+- `assets/` — images, textures, stamps, and the pitch deck PDF used by the site
 
-## Edit before publishing
+## Deploy on GitHub Pages
 
-1. Replace `contact@example.com` in `index.html` with the real contact email.
-2. Replace or remove the `Download Pitch Deck` link if you do not want the PDF public.
-3. Upload the folder to Netlify, Vercel, GitHub Pages, Webflow custom code, or any static hosting service.
+1. Push this repository to GitHub.
+2. In GitHub, open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select your publishing branch, usually `main`, and choose `/ (root)` as the folder.
+5. Save the settings and wait for GitHub Pages to publish the site.
 
-## Design notes
-
-The site uses the REDACTED kit as texture, stamp, line, circle, scratch, and document-noise layers. The structure preserves the pitch-deck sections while adapting them into a scrolling website/case-file format.
+Because `index.html`, `style.css`, and `script.js` live at the repository root and all media paths point to `assets/`, the site can be served directly by GitHub Pages.
